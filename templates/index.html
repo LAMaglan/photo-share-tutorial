@@ -134,7 +134,8 @@
     <div class="main-block">
       <h1>Photo Share</h1>
       <form enctype="multipart/form-data" action="" method="POST">
-        {% csrf_token %}
+        <!-- crsf_token is "protection" when sending (i.e. uploading) data -->
+        {% csrf_token %} 
         <hr><br><br>
         <input type="file" name="img" id="img" required/>
         <br><br>

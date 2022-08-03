@@ -8,5 +8,9 @@ def index(request):
             file=request.FILES["img"]
         )  # name as defined by form in index.html
         new_photo.save()
-    return render(request, "index.html")
+        return render(
+            request, "index.html", {"new_url": str(new_photo.file.url)}
+        )
+    else:
+        return render(request, "index.html")
 

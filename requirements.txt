@@ -1,0 +1,54 @@
+aniso8601==9.0.1
+anyio==3.5.0
+apispec==5.1.1
+appdirs==1.4.4
+asgiref==3.5.0
+attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
+black==19.10b0
+certifi==2021.10.8
+click @ file:///tmp/build/80754af9/click_1646056591685/work
+Django==3.2.13
+djangorestframework==3.13.1
+fastapi==0.75.1
+Flask==1.1.2
+flask-apispec==0.11.1
+Flask-RESTful==0.3.9
+flask-restplus==0.13.0
+flask-restx==0.5.1
+greenlet==1.1.2
+h11==0.13.0
+httptools==0.4.0
+idna==3.3
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1648562407465/work
+importlib-resources==5.6.0
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+jsonschema==4.4.0
+MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1621528142364/work
+marshmallow==3.15.0
+mypy-extensions==0.4.3
+packaging==21.3
+pathspec==0.7.0
+pydantic==1.9.0
+pyparsing==3.0.8
+pyrsistent==0.18.1
+python-decouple==3.6
+python-dotenv==0.20.0
+pytz==2022.1
+PyYAML==6.0
+regex @ file:///tmp/build/80754af9/regex_1648447710545/work
+six==1.16.0
+sniffio==1.2.0
+SQLAlchemy==1.4.35
+sqlparse==0.4.2
+starlette==0.17.1
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+typed-ast @ file:///tmp/build/80754af9/typed-ast_1624953380449/work
+typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
+uvicorn==0.17.6
+uvloop==0.16.0
+watchgod==0.8.2
+webargs==8.1.0
+websockets==10.2
+Werkzeug==0.16.1
+zipp @ file:///opt/conda/conda-bld/zipp_1641824620731/work

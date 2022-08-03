@@ -99,6 +99,7 @@ Now, after user has uploaded image, it will be viewable from admin page
 <br>
 The link the the URL shows up after changes in the HTML-file:
 <br>
+
 ```html
 <button type="submit" href="/">Submit</button>
     </div>
@@ -107,8 +108,8 @@ The link the the URL shows up after changes in the HTML-file:
         <h3 style="color: black;"><a href="{{ new_url }}">{{ new_url }}</a></h3>
       </div>
     </div>
-  </body>
 ```
+
 <br>
 When appending the image file path to the django-url (our localhost) in web-browser,
 <br>

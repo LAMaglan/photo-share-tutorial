@@ -84,7 +84,7 @@ you can from this admin page add photos to the photo database
 
 Go to "views.py", and add the following to the index(request) function:
 
-```
+```python
 if request.method == "POST":
         new_photo = Photo(
             file=request.FILES["img"]
